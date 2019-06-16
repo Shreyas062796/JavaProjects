@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class palindromePermutation{
 
     public static Boolean checkPalPerm(String input){
@@ -15,7 +14,7 @@ public class palindromePermutation{
 		}
 		}
 		for(char key:map.keySet()){
-			if(map.get(key) % 2 == 1){
+			if(map.get(key) % 2 == 1){				
 				count++;
 			}
 		}
